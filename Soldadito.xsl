@@ -7,7 +7,10 @@
       <xsl:apply-templates />
     </body></html>
   </xsl:template>
-		
+		<xsl:template match="tipo">
+			
+		</xsl:template>
+			
 			
 	<xsl:template match="verso">
      <p>
