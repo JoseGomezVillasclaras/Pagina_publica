@@ -1,9 +1,11 @@
 body {
     counter-reset: section;
     /* Set a counter named 'section', and its initial value is 0. */
+    background-color: yellow;
 }
 p.{
-    color:red;
+    color:blue;
+    
 }
 
 p::before {
