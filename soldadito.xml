@@ -7,7 +7,7 @@
 	<letras>
 		<estrofa>
 		<tipo>normal</tipo>
-		<orden>1</orden>
+		<contador>Estrofa:</contador>
 			<verso>Él camina despacito que las prisas no son buenas</verso>
 			<verso>En su brazo dobladita, con cuidado la chaqueta</verso>
 			<verso>Luego pasa por la calle dónde los chavales juegan</verso>
@@ -15,7 +15,7 @@
 		</estrofa>
 		<estrofa>
 			<tipo>estribillo</tipo>
-		<orden>2</orden>
+		<contador>Estrofa:</contador>
 			<verso>Soldadito marinero conociste a una sirena</verso>
 			<verso>De esas que dicen te quiero si ven la cartera llena</verso>
 			<verso>Escogiste a la más guapa y a la menos buena</verso>
@@ -23,7 +23,7 @@
 		</estrofa>
 		<estrofa>
 		<tipo>normal</tipo>
-			
+			<contador>Estrofa:</contador>
 			<verso>Él quería cruzar los mares y olvidar a su sirena</verso>
 			<verso>La verdad, no fue difícil cuando conoció a Mariela</verso>
 			

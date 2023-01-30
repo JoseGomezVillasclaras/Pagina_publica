@@ -1,18 +1,25 @@
-body {
+    body {
     counter-reset: section;
-    /* Set a counter named 'section', and its initial value is 0. */
+   
     background-color: yellow;
 }
-p.{
+p{
     color:blue;
     
 }
 
 p::before {
     counter-increment: section;
-    /* Increment the value of section counter by 1 */
+    
     content: "Verso " counter(section) ": ";
-    /* Display the word 'Section ', the value of
-                                                  section counter, and a colon before the content
-                                                  of each h3 */
+    
+}
+h2{
+color:black
+
+}
+h2::before{
+    counter-increment: section;
+    
+    content: "contador " counter(section) ": ";
 }
