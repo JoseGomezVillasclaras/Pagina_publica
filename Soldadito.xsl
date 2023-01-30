@@ -3,7 +3,11 @@
 	
 		
 		<xsl:template match="/">
-	<html><head><link rel="stylesheet" type="text/css" href="soldadito.css" /></head><body>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="soldadito.css" />
+		</head>
+		<body>
       <xsl:apply-templates />
     </body></html>
   </xsl:template>
@@ -11,7 +15,11 @@
 			
 		</xsl:template>
 			
-			
+	<xsl:template match="contador">
+	<h2>
+    <xsl:value-of select="."/>
+    </h2> 
+		</xsl:template>
 	<xsl:template match="verso">
      <p>
      <xsl:value-of select="."/>
