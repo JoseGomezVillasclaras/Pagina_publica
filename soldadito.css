@@ -1,25 +1,33 @@
     body {
-    counter-reset: section;
-   
-    background-color: yellow;
-}
-p{
-    color:blue;
-    
-}
+        counter-reset: section;
 
-p::before {
-    counter-increment: section;
-    
-    content: "Verso " counter(section) ": ";
-    
-}
-h2{
-color:black
+        background-color: yellow;
+    }
 
-}
-h2::before{
-    counter-increment: section;
-    
-    content: "contador " counter(section) ": ";
-}
+    p {
+        color: blue;
+        font-weight: bold;
+    }
+
+    p::before {
+        counter-increment: section;
+
+        content: "Verso " counter(section) ": ";
+
+    }
+
+    h2 {
+        color: black;
+        font-size:large
+    }
+
+    h2::before {
+        counter-increment: section;
+
+        content: "Estrofa " counter(section) ": ";
+    }
+    span{
+        background-color: blue;
+
+
+    }
