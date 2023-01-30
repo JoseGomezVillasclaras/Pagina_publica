@@ -15,11 +15,15 @@
 			
 		</xsl:template>
 			
-	<xsl:template match="contador">
+	<xsl:template match="estrofa">
+	<span>
 	<h2>
-    <xsl:value-of select="."/>
-    </h2> 
+		Estrofa:
+    </h2>
+    <xsl:apply-templates />
+    </span>	
 		</xsl:template>
+		
 	<xsl:template match="verso">
      <p>
      <xsl:value-of select="."/>
