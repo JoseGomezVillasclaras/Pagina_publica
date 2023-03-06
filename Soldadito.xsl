@@ -14,10 +14,11 @@
     </body></html>
   </xsl:template>
   		<h2>
-		<xsl:template match="titulo"></xsl:template>
+		<xsl:template match="titulo">
   		</h2>
+  		</xsl:template>
   		<h2>
-		<xsl:template match="autor"></xsl:template>
+		<xsl:template match="autor">
   		</h2>
   		</xsl:template>
 		<xsl:template match="tipo">
