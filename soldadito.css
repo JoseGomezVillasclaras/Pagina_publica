@@ -1,13 +1,13 @@
     body {
         counter-reset: section;
 
-        background-color: yellow;
+        background-color: #182747;
     }
 
     p {
-        color: blue;
+        color: #D8D8D8;
         font-weight: bold;
-        background-color: lightgreen;
+        background-color: #647E68;
         display: block;
     }
 
@@ -19,10 +19,10 @@
     }
 
     h2 {
-        color: black;
+        color: #D8D8D8;
         font-size:large;
         font-weight: 1000;
-        background-color: lightcoral;
+        background-color: #647E68;
     }
 
     h2::before {
@@ -31,7 +31,7 @@
         content: "Estrofa " counter(section) ": ";
     }
     span{
-        background-color: blue;
+        background-color: #562B08;
         display: block;
 
     }
