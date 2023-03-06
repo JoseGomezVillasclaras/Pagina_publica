@@ -8,9 +8,9 @@
 			<link rel="stylesheet" type="text/css" href="soldadito.css" />
 		</head>
 		<body>
-		<p>
+		
       <xsl:apply-templates />
-      </p>
+      
     </body></html>
   </xsl:template>
   		<xsl:template match="titulo">
