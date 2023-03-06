@@ -14,12 +14,14 @@
     </body></html>
   </xsl:template>
   		<xsl:template match="titulo">
+  			<h3>Titulo: </h3>
   		<h1>
 		<xsl:value-of select="."/>
   		</h1>
   		</xsl:template>
   		
   		<xsl:template match="autor">
+  			<h3>Autor: </h3>
   		<h1>
 		<xsl:value-of select="."/>
   		</h1>
