@@ -19,7 +19,7 @@
   		<h2>
 		<xsl:template match="autor"></xsl:template>
   		</h2>
-  		
+  		</xsl:template>
 		<xsl:template match="tipo">
 			
 		</xsl:template>
