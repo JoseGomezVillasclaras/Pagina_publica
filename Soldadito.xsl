@@ -13,14 +13,18 @@
       </p>
     </body></html>
   </xsl:template>
+  		<xsl:template match="titulo">
   		<h2>
-		<xsl:template match="titulo">
+		<xsl:value-of select="."/>
   		</h2>
   		</xsl:template>
+  		
+  		<xsl:template match="autor">
   		<h2>
-		<xsl:template match="autor">
+		<xsl:value-of select="."/>
   		</h2>
   		</xsl:template>
+  		
 		<xsl:template match="tipo">
 			
 		</xsl:template>
