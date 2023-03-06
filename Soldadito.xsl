@@ -31,9 +31,9 @@
 			
 	<xsl:template match="estrofa">
 	<span>
-	<h2>
+	<h3>
 		
-    </h2>
+    </h3>
     <xsl:apply-templates />
     </span>	
 		</xsl:template>
