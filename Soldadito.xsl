@@ -13,6 +13,13 @@
       </p>
     </body></html>
   </xsl:template>
+  		<h2>
+		<xsl:template match="titulo"></xsl:template>
+  		</h2>
+  		<h2>
+		<xsl:template match="autor"></xsl:template>
+  		</h2>
+  		
 		<xsl:template match="tipo">
 			
 		</xsl:template>
