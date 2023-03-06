@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Soldadito.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="soldadito.xsd">
+	<titulo>La casa por el tejado</titulo>
+	<autor>Fito y los Fitipaldis</autor>
+	<letras>
+		<estrofa>
+		<tipo>normal</tipo>
+			<verso>Ahora sí</verso>
+			<verso>Parece que ya empiezo a entender</verso>
+			<verso>Las cosas importantes aquí</verso>
+			<verso>Son las que están detrás de la piel</verso>			
+		</estrofa>
+		<estrofa>
+		<tipo>normal</tipo>
+			<verso>Y todo lo demás</verso>
+			<verso>Empieza donde acaban mis pies</verso>
+			<verso>Después de mucho tiempo aprendí</verso>
+			<verso>Que hay cosas que es mejor no aprender</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+		
+			<verso>El colegio poco me enseñó</verso>
+			<verso>Si es por esos libros, nunca aprendo</verso>
+					
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+		
+			<verso>A coger el cielo con las manos</verso>
+			<verso>A reír y a llorar lo que te canto</verso>
+			<verso>A coser mi alma rota</verso>
+			<verso>A perder el miedo a quedar como un idiota</verso>			
+		</estrofa>
+		<estrofa>
+		<tipo>estribillo</tipo>
+			
+			<verso>Y a empezar la casa por el tejado</verso>
+			<verso>A poder dormir, cuando tú no estás a mi lado</verso>
+			<verso>Menos mal que fui un poco granuja</verso>
+			<verso>Todo lo que sé, me lo enseñó una bruja</verso>
+		</estrofa>
+	</letras>
+</cancion>
