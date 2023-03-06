@@ -14,15 +14,15 @@
     </body></html>
   </xsl:template>
   		<xsl:template match="titulo">
-  		<h2>
+  		<h1>
 		<xsl:value-of select="."/>
-  		</h2>
+  		</h1>
   		</xsl:template>
   		
   		<xsl:template match="autor">
-  		<h2>
+  		<h1>
 		<xsl:value-of select="."/>
-  		</h2>
+  		</h1>
   		</xsl:template>
   		
 		<xsl:template match="tipo">
@@ -31,9 +31,9 @@
 			
 	<xsl:template match="estrofa">
 	<span>
-	<h3>
+	<h2>
 		
-    </h3>
+    </h2>
     <xsl:apply-templates />
     </span>	
 		</xsl:template>
